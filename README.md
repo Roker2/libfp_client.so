@@ -12,14 +12,14 @@ Maybe need to patch Aliplay functions
 
 | Function                                 | Patch place | Patch status (patched or not) |
 | :--------------------------------------- | :---------- | :---------------------------- |
-| BpFingerPrint::gfCmdM                    | 150E0       | no                            |
-| BpFingerPrint::delFpTemplates            | 15D70       | no                            |
-| BpFingerPrint::cancelRecognize           | 15E48       | no                            |
-| BpFingerPrint::recognize                 | 162F0       | no                            |
-| BpFingerPrint::saveRegist                | 163DC       | no                            |
-| BpFingerPrint::unRegist                  | 164C8       | no                            |
-| BpFingerPrint::cancelRegist              | 16748       | no                            |
-| BpFingerPrint::regist                    | 1681C       | no                            |
-| BpFingerPrint::load_all_fpdata           | 16A24       | no                            |
-| BpFingerPrint::set_user_id               | 16FB4       | no                            |
-| BpFingerPrintService::connect            | 1A72C       | no                            |
+| BpFingerPrint::gfCmdM                    | 150E0       | yes                           |
+| BpFingerPrint::delFpTemplates            | 15D70       | yes                           |
+| BpFingerPrint::cancelRecognize           | 15E48       | yes                           |
+| BpFingerPrint::recognize                 | 162F0       | yes                           |
+| BpFingerPrint::saveRegist                | 163DC       | yes                           |
+| BpFingerPrint::unRegist                  | 164C8       | yes                           |
+| BpFingerPrint::cancelRegist              | 16748       | yes                           |
+| BpFingerPrint::regist                    | 1681C       | yes                           |
+| BpFingerPrint::load_all_fpdata           | 16A24       | yes                           |
+| BpFingerPrint::set_user_id               | 16FB4       | yes                           |
+| BpFingerPrintService::connect            | 1A72C       | yes                           |
